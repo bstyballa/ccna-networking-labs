@@ -1,1 +1,26 @@
+# Lab 01: Introduction to Packet Tracer
 
+## Objective
+The goal of this lab was to familiarize myself with the Packet Tracer environment, select appropriate cabling, and verify end-to-end connectivity between devices using the ICMP protocol (Ping).
+
+## Topology
+* **Devices:** 2 x Generic PCs, 1 x Cisco Catalyst 2960 Switch
+* **Cabling:** Copper Straight-Through cables
+
+## Configuration Details
+I assigned static IPv4 addresses to the end devices to establish a local network:
+* **PC1:** 192.168.1.1 /24
+* **PC2:** 192.168.1.2 /24
+
+## Verification
+To verify the configuration, I performed a connectivity test from the Command Prompt of PC1:
+
+```bash
+C:\> ping 192.168.1.2
+
+Pinging 192.168.1.2 with 32 bytes of data:
+Reply from 192.168.1.2: bytes=32 time<1ms TTL=128
+Reply from 192.168.1.2: bytes=32 time<1ms TTL=128
+
+Ping statistics for 192.168.1.2:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss)
