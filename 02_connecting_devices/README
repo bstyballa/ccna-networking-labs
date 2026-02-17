@@ -1,1 +1,17 @@
+# Lab 02: Connecting Devices & Branch Topology
 
+## Objective
+To build a multi-location network topology and identify the correct cabling required to interconnect various networking hardware.
+
+## Topology Components
+* [cite_start]**New York Branch:** Router, Switch, and Firewall[cite: 15].
+* **Tokyo Branch:** Router, Switch, and Server infrastructure.
+* **WAN:** "The Internet" cloud acting as the central hub for branch communication.
+
+## Skills Applied
+* **Media Selection:** Differentiating between Console, Straight-Through, and Cross-over cables.
+* [cite_start]**Component Identification:** Deploying Cisco 2911 Routers and 2960 Switches[cite: 15].
+* **Network Visualization:** Mapping out a logical diagram that represents a real-world enterprise environment.
+
+## Verification
+* Confirmed physical layer connectivity (green link lights) across all branch segments.
