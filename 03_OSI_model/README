@@ -1,1 +1,18 @@
+# Lab 03: The OSI Model in Action
 
+## Objective
+To examine network traffic and visualize how data is encapsulated and de-encapsulated across the different layers of the OSI model.
+
+## Lab Scenario
+* **Task:** Sent a PDU (Protocol Data Unit) between a PC and a Server.
+* **Tool Used:** Packet Tracer Simulation Mode.
+* **Analysis:** Inspected the "Inbound PDU Details" and "Outbound PDU Details" at each hop.
+
+## Observations
+* **Layer 2 (Data Link):** Observed the addition of Source/Destination MAC addresses.
+* **Layer 3 (Network):** Verified the Source/Destination IP addresses within the IP header.
+* **Layer 4 (Transport):** Identified the use of ICMP (Layer 3 protocol) and how the simulator handles the "Type" and "Code" fields.
+
+## Skills Demonstrated
+* [cite_start]**Traffic Analysis:** Similar to my experience with Wireshark[cite: 13, 47], I can track data flow to identify exactly where a connection might be failing.
+* **Protocol Knowledge:** Understanding the relationship between MAC addresses (L2) and IP addresses (L3).
